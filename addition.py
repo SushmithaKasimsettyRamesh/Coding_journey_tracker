@@ -7,5 +7,6 @@ def array_sum(array):
 
 
 array = [1, 3, 5, 7]
-output = array_sum(array)
-print(output)
+#output = array_sum(array)
+#print(output)
+print(array_sum(array))

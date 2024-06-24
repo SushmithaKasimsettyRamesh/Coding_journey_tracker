@@ -20,18 +20,6 @@ print(string1.isupper())
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 list1 = [1, 2, 0]
 list2 = [5, 6, 7]
 
@@ -61,3 +49,8 @@ list2.sort()
 list1.sort()
 print(list2)
 print(list1)
+
+#join
+my_list = ['apple', 'banana', 'orange']
+result = ','.join(my_list) #use '' for space and if u want separation, use,
+print(result)

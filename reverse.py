@@ -4,4 +4,5 @@ def reverse_array(a):
 
 
 a=[1,2,3,4]
-print(reverse_array(a))
+op = reverse_array(a)
+print(op)

@@ -18,28 +18,6 @@ def binary_search(list, target):
 
     return None
 
-    # cause the last is lesser , index starts from 0
-
-    # we want something in which first is less than or equal to last
-
-    # floor division = rounds off 7/2=3.5 but 3
-
-    # while loop takes condition and keep executimg the code
-    # inside the loop until condtn evaluates to false
-
-
-'''example: target =6 first=0, last=6
-mid=6/2=3
-if target = 3, print or return that value, in this case no
-
-if 3>6
-3+1, true
-
-if target=2
-3-1
-till target value is reached
-
-'''
 
 
 # lets verify
@@ -62,3 +40,27 @@ verify(result)
 result = binary_search(numbers, 4)
 
 verify(result)
+
+
+    # cause the last is lesser , index starts from 0
+
+    # we want something in which first is less than or equal to last
+
+    # floor division = rounds off 7/2=3.5 but 3
+
+    # while loop takes condition and keep executimg the code
+    # inside the loop until condtn evaluates to false
+
+
+'''example: target =6 first=0, last=6
+mid=6/2=3
+if target = 3, print or return that value, in this case no
+
+if 3>6
+3+1, true
+
+if target=2
+3-1
+till target value is reached
+
+'''
